@@ -9,8 +9,7 @@ public class MainMethodOverriding extends MethodOverriding {
 	
 	public static void main(String[] args) {
 		MainMethodOverriding m=new MainMethodOverriding();
-		m.show(); // this is called method overriding
-		System.out.println("this is called method overriding\n");
+		m.show();
 		
 		MethodOverriding n=new MethodOverriding();
 		n.show();
